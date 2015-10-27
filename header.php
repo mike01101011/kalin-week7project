@@ -23,7 +23,6 @@
         <?php bloginfo( 'name' ); ?>
       </a>
     </h1>
-
     <?php wp_nav_menu( array(
       'container' => false,
       'theme_locations' => 'primary'
