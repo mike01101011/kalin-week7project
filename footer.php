@@ -1,6 +1,9 @@
 <footer>
-  <div class="container">
-    <p>&copy; HackerYou <?php echo date('Y'); ?></p>
+  <div class="container left">
+    <p>&copy; Mike Kalin <?php echo date('Y'); ?></p>
+  </div>
+  <div class="container right">
+    <p><i class="fa fa-chevron-up"></i> Go to top</p>
   </div>
 </footer>
 

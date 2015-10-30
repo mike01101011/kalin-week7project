@@ -1,3 +1,5 @@
+
+
 /*
 * Theme Name: HackerYou Starter Theme
 * Theme URI: http://hackeryou.com;
@@ -42,12 +44,34 @@ body {
 	width: 100%;
 }
 
+// Mike
 
-
-
-
-
-
+.authorUrl {
+	font-size: 1.0rem;
+}
+.authorAbout {
+	padding-bottom: 300px;
+	background-color: #F5F5F5;
+	border-radius: 5px;
+	border: 2px solid #CFCFCF;
+	padding: 20px;
+	img {
+		border-radius: 50%;
+		float: left;
+	}
+}
+.menu-item a{
+	border-radius: 5px;
+}
+footer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+div.left, div.right{
+	margin: 0;
+}
 
 // responsive responsive responsive responsive responsive responsive responsive responsive responsive
 
