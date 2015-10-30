@@ -1,9 +1,11 @@
 <footer>
-  <div class="container left">
-    <p>&copy; Mike Kalin <?php echo date('Y'); ?></p>
-  </div>
-  <div class="container right">
-    <p><i class="fa fa-chevron-up"></i> Go to top</p>
+  <div class="container flex">
+  	<div class="left">
+    	<p>&copy; Mike Kalin <?php echo date('Y'); ?></p>
+  	</div>
+  	<div class="right">
+    	<p><i class="fa fa-chevron-up"></i> Go to top</p>
+  	</div>
   </div>
 </footer>
 
@@ -14,7 +16,6 @@
  g.src=("https:"==location.protocol?"//ssl":"//www")+".google-analytics.com/ga.js";
  s.parentNode.insertBefore(g,s)}(document,"script"));
 </script>
-
 <?php wp_footer(); ?>
 </body>
 </html>

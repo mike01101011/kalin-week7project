@@ -46,6 +46,13 @@ body {
 
 // Mike
 
+html{
+	font-family: 'Cutive Mono', serif;
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Julius Sans One', sans-serif;
+}
+
 .authorUrl {
 	font-size: 1.0rem;
 }
@@ -60,17 +67,25 @@ body {
 		float: left;
 	}
 }
-.menu-item a{
-	border-radius: 5px;
+
+.main {
+	text-align: center;
 }
-footer {
+.sidebar, .post {
+	text-align: left;
+}
+div.flex {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	align-items: center;
 }
-div.left, div.right{
-	margin: 0;
+header div.flex {
+	border-bottom: 1px solid black;
+}
+footer div.flex {
+	border-top: 1px solid black;
 }
 
 // responsive responsive responsive responsive responsive responsive responsive responsive responsive
@@ -88,4 +103,10 @@ div.left, div.right{
 /* Landscape phones and down */
 @media (max-width: 480px) {
 
+}
+
+#map {
+	height: 45vw;
+	width: 90%;
+	margin: 0 auto;
 }
