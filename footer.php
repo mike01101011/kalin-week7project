@@ -1,10 +1,15 @@
 <footer>
   <div class="container flex">
   	<div class="left">
-    	<p>&copy; Mike Kalin <?php echo date('Y'); ?></p>
+    	<p>&copy; <a href="http://mikekalin.ca" target="_blank">Mike Kalin</a> <?php echo date('Y'); ?></p>
+  	</div>
+  	<div class="center">
+  		<a href="#"><i class="fa fa-facebook-official fa-2x"></i></a>
+  		<a href="#"><i class="fa fa-instagram fa-2x"></i></a>
+  		<a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
   	</div>
   	<div class="right">
-    	<p><i class="fa fa-chevron-up"></i> Go to top</p>
+    	<p><a href="#" class="scrollToTop"><i class="fa fa-chevron-up"></a></i> Go to top</p>
   	</div>
   </div>
 </footer>

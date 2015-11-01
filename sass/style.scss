@@ -1,12 +1,10 @@
-
-
 /*
-* Theme Name: HackerYou Starter Theme
-* Theme URI: http://hackeryou.com;
-* Description: Starter theme for building any website. Created by HackerYou. * Rename this to your own theme page.
+* Theme Name: Mike Kalin Starter Theme
+* Theme URI: http://mikekalin.ca;
+* Description: Starter theme for building a cafe website.
 * Version: 1.0
-* Author: HackerYou
-* Author URI: http://hackeryou.com
+* Author: Mike Kalin
+* Author URI: http://mikekalin.ca
 */
 
 @import 'normalize';
@@ -15,6 +13,7 @@
 @import 'sidebar';
 @import 'comments';
 @import 'footer';
+@import 'responsive';
 /*
 ====================================
 Default Styling
@@ -28,31 +27,26 @@ img {
 body {
 	color: #333;
 }
-
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
 }
-
 .content {
 	float: left;
 	width: 65%;
 	margin-right: 5%;
 }
-
 .full {
 	width: 100%;
 }
 
 // Mike
-
 html{
 	font-family: 'Cutive Mono', serif;
 }
 h1,h2,h3,h4,h5,h6{
 	font-family: 'Julius Sans One', sans-serif;
 }
-
 .authorUrl {
 	font-size: 1.0rem;
 }
@@ -67,7 +61,6 @@ h1,h2,h3,h4,h5,h6{
 		float: left;
 	}
 }
-
 .main {
 	text-align: center;
 }
@@ -87,26 +80,20 @@ header div.flex {
 footer div.flex {
 	border-top: 1px solid black;
 }
-
-// responsive responsive responsive responsive responsive responsive responsive responsive responsive
-
-/* Portrait tablet and small desktops */
-@media (max-width: 940px) {
-
+footer div div {
+	width: 15%;
 }
-
-/* Landscape phone to portrait tablet */
-@media (max-width: 768px) {
-
+div.right {
+	text-align: right;
+	a {
+		transition: 1s;
+	}
 }
-
-/* Landscape phones and down */
-@media (max-width: 480px) {
-
+div.center {
+	text-align: center;
 }
-
 #map {
 	height: 45vw;
 	width: 90%;
-	margin: 0 auto;
+	margin: 20px auto;
 }

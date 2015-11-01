@@ -1,0 +1,14 @@
+/* Portrait tablet and small desktops */
+@media (max-width: 940px) {
+	background: yellow;
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	background: green;
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	background: orange;
+}
