@@ -1,7 +1,7 @@
 <?php
 
 /*
-	Template Name: Full Page, No Sidebar, Conact
+	Template Name: Full Page, No Sidebar, Contact
 */
 
 get_header();  ?>
@@ -35,7 +35,7 @@ get_header();  ?>
 				<li>
 					<ul class="contactDetailsSubList">
 						<li><h4>Hours</h4></li>
-						<li>8am-12pm, Wednesday-Sunday</li>
+						<li><p>8am-12pm, Wednesday-Sunday</p></li>
 					</ul>
 				</li>
 			</ul>

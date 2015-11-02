@@ -14,7 +14,6 @@
 @import 'comments';
 @import 'footer';
 @import 'hover';
-@import 'responsive';
 
 /*
 ====================================
@@ -54,20 +53,20 @@ h2.pageHeading {
 	margin-bottom: 0;
 	padding-left: 20px;
 }
-.authorUrl {
-	font-size: 1.0rem;
-}
-.authorAbout {
-	padding-bottom: 300px;
-	background-color: #F5F5F5;
-	border-radius: 5px;
-	border: 2px solid #CFCFCF;
-	padding: 20px;
-	img {
-		border-radius: 50%;
-		float: left;
-	}
-}
+// .authorUrl {
+// 	font-size: 1.0rem;
+// }
+// .authorAbout {
+// 	padding-bottom: 300px;
+// 	background-color: #F5F5F5;
+// 	border-radius: 5px;
+// 	border: 2px solid #CFCFCF;
+// 	padding: 20px;
+// 	img {
+// 		border-radius: 50%;
+// 		float: left;
+// 	}
+// }
 .main {
 	text-align: center;
 }
@@ -84,11 +83,13 @@ div.flex {
 header div.flex {
 	border-bottom: 1px solid black;
 }
+
+// footer footer footer footer footer footer footer footer footer footer footer footer footer footer footer
 footer div.flex {
 	border-top: 1px solid black;
 }
 footer div div {
-	width: 15%;
+	width: 20%;
 }
 div.right {
 	text-align: right;
@@ -99,21 +100,23 @@ div.right {
 div.center {
 	text-align: center;
 }
+
+// contact contact contact contact contact contact contact contact contact contact contact contact contact
 #map {
 	height: 475px;
 	width: 50%;
-	margin: 20px;
+	margin: 10px;
 	cursor: default;
 }
 .contactLeft {
 	border: 1px solid black;
 }
 .leaflet-tile-container img {
-	filter: opacity(1); -webkit-filter: opacity(1);
-	transition: 1s;
+	filter: saturate(.5); -webkit-filter: saturate(.5);
+	// transition: 1s;
 }
 .leaflet-tile-container:hover img {
-	filter: opacity(0.5); -webkit-filter: opacity(0.5);
+	filter: saturate(1.5); -webkit-filter: saturate(1.5);
 	transition: 1s;
 }
 .contactDetails ul {
@@ -122,9 +125,8 @@ div.center {
 	padding: 0;
 }
 .contactLeft, .contactRight {
-	width: calc(50% - 40px);
+	width: calc(50% - 20px);
 }
-
 .contactDetailsSubList {
 	display: flex;
 	flex-direction: row;
@@ -134,8 +136,10 @@ div.center {
 
 }
 .contactRight {
-	padding: 0 100px;
+	padding: 0 60px;
 }
+
+// home home home home home home home home home home home home home home home home home home home home home
 .logo {
 	width: 39.33%;
 	margin: 20px auto;
@@ -144,8 +148,7 @@ div.center {
 		position: absolute;
 		a {
 		font-size: 76px;
-		}
-		
+		}	
 	}
 }
 div.a {
@@ -164,3 +167,14 @@ div.d {
 	bottom: 210px;
 	right: 0;
 }
+
+// news news news news news news news news news news news news news news news news news news news news news news
+.news {
+	list-style: none;
+	text-align: left;
+	// p {
+	// 	text-align: left;
+	// }
+}
+
+@import 'responsive';
