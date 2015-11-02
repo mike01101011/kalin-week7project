@@ -1,6 +1,9 @@
 <?php get_header();  ?>
 <div class="main">
   <div class="container">
+    <h2 class="pageHeading"><?php the_title(); ?></h2>
+  </div>
+  <div class="container">
 
     <div class="content">
       <?php // Start the loop ?>

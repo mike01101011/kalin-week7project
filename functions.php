@@ -266,3 +266,12 @@ function get_post_parent($post) {
 		return $post->ID;
 	}
 }
+
+// Mike Mike Mike Mike Mike Mike Mike Mike Mike Mike Mike Mike Mike Mike Mike Mike Mike Mike Mike Mike Mike Mike Mike
+
+// Add Custom Class to the Links inside of a WordPress Menu
+add_filter('nav_menu_link_attributes' , 'addClassToLink' , 10 , 1);
+function addClassToLink($attrs){
+    $attrs['class'] = 'hvr-underline-from-center';
+    return $attrs;
+}
