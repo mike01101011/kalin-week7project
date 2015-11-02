@@ -1,7 +1,7 @@
 <?php
 
 /*
-	Template Name: Full Page, No Sidebar
+	Template Name: Full Page, No Sidebar, Home
 */
 
 get_header();  ?>
@@ -22,13 +22,6 @@ get_header();  ?>
 				<!-- Created by Kervin Markle from the Noun Project -->
 			</svg>
 		</div>
-		<?php // Start the loop ?>
-		<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
-
-		<?php the_content(); ?>
-
-		<?php endwhile; // end the loop?>
-
 	</div> <!-- /.container -->
 </div> <!-- /.main -->
 
